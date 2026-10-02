@@ -1,0 +1,61 @@
+# Venv is Python Virtual Enviornment
+# PIP is Preffered Installer Program(also known as PIP Installs Packages)
+
+# PIP lets us install packages in our programs that are not already included in Python, like Math module, and other modules
+
+# PIP is already included in every Python install
+
+# so to install packages via pip we do in our Lesson folder terminal
+
+# syntax(python module pip install package_name is what is written below)
+# py -m pip install package_name
+
+# real
+# py -m pip install requests
+
+
+# ----------
+# PIP
+# ----------
+
+# Definition and Need of Venv
+# One python app will need a specific version of a module. The other might need another version. 
+# Pip installs version of a module globally, affecting all applications
+# To provide two versions for two different applicatons, we use Venv
+
+# What is Venv?
+# Venv are virtual enviornments
+# We use Venv in development, but dont include in git repository or send to github
+# in git bash terminal, inside the folder Lesson21
+# type py -m venv .venv
+# above statement means, creating a virtual enviornment named .venv, which creates a folder! not a file
+# type in git bash terminal,  source .venv/Scripts/activate
+# (.venv) means its activated
+# to deactivate the virtual enviornment, simply in terminal type deactivate
+# after the enviornment is activated, you can even get the pip list without py -m pip list preceeding it.
+# now we install py -m pip install requests
+# packages themselves have other dependencies
+# type in terminal , pip show requests, shows other packages "requests" package depends on.
+# another dependency to install is, type in terminal, py -m pip install python-dotenv
+# on this site you will see python package index, https://pypi.org/
+
+# so the two dependencies for our project are
+# $ py -m pip list
+# Package            Version
+# ------------------ ---------
+# certifi            2026.7.22
+# charset-normalizer 3.5.1
+# idna               3.19
+# pip                24.2
+# python-dotenv      1.2.3
+# requests           2.34.2
+# urllib3            2.7.0
+# (.venv) 
+
+# we donot store .venv OR .env folder or it's files in git
+# now we can pass/store these requirements/dependencies by using the following command in the git bash terminal
+# py -m pip freeze > requirements.txt
+
+
+# creating the weather app, begins inside the weather.py file
+

@@ -1,0 +1,93 @@
+# ----------
+
+# student challenge #1 guess my number!
+
+# ----------
+
+
+# Structure on CLI
+
+# py guess_number.py -n "Janhavi"
+
+# Janhavi, guess which number I'm thinking of... 1, 2, or 3.
+
+# wait for user input
+# 1
+
+
+# Winner Output
+
+# Janhavi, you chose 1.
+# I was thinking about the number 1.
+
+# 🎉 Janhavi, you win!
+
+# Game Count: 1
+# Janhavi's wins: 1
+
+# Your winning percentage: 100.00%
+
+# Play Again, Janhavi?
+
+# Y for Yes or
+# Q to Quit
+
+
+# Loser Output
+
+# Janhavi, you chose 1.
+# I was thinking about the number 2.
+
+# Sorry, Janhavi. Better luck next time... 😢
+
+# Game Count: 2
+# Janhavi's wins: 1
+
+# Your winning percentage: 50.00%
+
+# Play Again, Janhavi?
+
+# Y for Yes or
+# Q to Quit
+
+
+
+
+# ----------
+
+# student challenge #2 arcade menu!
+
+# ----------
+
+
+# Build an arcade that allos to choose between "Rock Paper Scissors" Game or "Guess My Number" Game
+
+# CLI Command
+# py arcade.py -n "Janhavi"
+
+# Arcade CLI Interface
+
+# Janhavi, welcome to the Arcade! 🤖
+
+# Please choose a game:
+# 1 = Rock Paper Scissors
+# 2 = Guess My Number
+
+# Or press "x" to Exit the Arcade
+
+# wait for user input
+
+# if user choose's 1, start module rps.py
+# if user choose's 2, start module guess_number.py
+
+# If user presses q to Quit either of the game
+
+# Arcade CLI Interface
+
+# Janhavi, welcome back to the Arcade Menu.
+
+# Please choose a game:
+# 1 = Rock Paper Scissors
+# 2 = Guess My Number
+
+
