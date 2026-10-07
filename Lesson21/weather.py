@@ -33,7 +33,7 @@ def get_current_weather():
     print('\n*** Get Current Weather Conditions ***\n')
 
     city = input("\nPlease enter a city name:\n")
-
+    # from this link get below url https://openweathermap.org/api/current?collection=current_forecast
     request_url = f'https://api.openweathermap.org/data/2.5/weather?&appid={os.getenv("API_KEY")}&q={city}&units=metric'
 
     # print(request_url)
